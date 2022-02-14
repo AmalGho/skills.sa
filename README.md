@@ -1,2 +1,2 @@
 # skills.sa
-clone a ui with my own additions.
+clone an ui with my own additions.
