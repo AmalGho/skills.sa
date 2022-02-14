@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            skillsSA
+        </title>
+        <!-- bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <!-- bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script> 
+    
+        <!-- font awesome icon cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+        <!-- animate.css library cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <div class="row mb-3">
+            <ul class="navbar fixed-top">
+                <li class="col-1 navbar-brand"><b>skills.sa</b></li>
+
+                <li class="col-6 nav-item">
+                        <div class="form">
+                            <input type="text" class="form-control form-input" placeholder="Search... "> 
+                            <span class="left-pan"><a href="#"><i class="fa fa-search"></i></a></span> 
+                        </div> 
+                </li>
+
+                <div class="col-2 mx-5" id="profile">
+                <li class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <img  src="pro1.png">
+                            user name
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+
+                </li>
+
+                <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-bell fa-2x">
+                    <mark class="animate__animated animate__bounceIn animate__repeat-3">2</mark>
+                    </i></a></li>
+
+                    <li><a href="#"class="nav-link" onclick="NightMode()"><i id="fa" class="fa fa-moon-o fa-2x"></i></a></li>
+
+                </div>
+            </ul>
+        </div>
+
+        <div class="row">
+            <div class="col-2 mt-5 " id="navbarSide">
+                <ul class="nav  mx-3">
+
+                    <li class="nav-item mt-3">MENUE</li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-home"></i> Discover</a></li>
+                    <li class="nav-item active"><a href="#" class="nav-link"><i class="fa fa-fire"></i> Trending</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-bullseye"></i> Streaming</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-play"></i> Playlist</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-bookmark"></i> Boockmark</a></li>
+
+                    <hr>
+
+                    <li class="nav-item mt-3">MENUE</li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-home"></i> Discover</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-home"></i> Trending</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-home"></i> Streaming</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-home"></i> Playlist</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-home"></i> Bockmark</a></li>
+
+                </ul>
+            </div>
+
+            <div class="col-6 mt-5 mx-5">
+                <h1>Trending</h1>
+                <div class="card my-3 px-2">
+                    <img class="card-img-top" src="https://artsy-media-uploads.s3.amazonaws.com/MGj40StjV__ED5N3iwWeww%2FSOCIAL+THUMB_cecilia-paredes-shield-escudo-2018.jpg">
+                        
+                    <div class="card-body">
+                        <h3 class="card-title">Flower arts</h3>
+                        <p class="card-text">
+                            <span id="views"><i class="fa fa-eye"></i> 393.333 views</span>
+                            <span id="likes"><i class="fa fa-heart"></i> 393.333 likes</span>
+                            <div class="row container-fluid"> 
+                                <img class="col-2 my-2" src="pro2.png">
+                                <div class="col-10">
+                                    <a href="#"><span id="name">name name</span></a><br>
+                                    <span id="period">week ago</span>
+                                </div>
+                            </div>
+                        </p>
+                    </div>
+                    <a href="#" onclick="likebtn(this);return false;" ><i class="fa fa-heart text-light pt-3"></i></a>
+                </div>
+                
+                <div class="card my-3 px-2">
+                    <img class="card-img-top" src="http://www.whitesparrow.co.in/wp-content/uploads/2014/10/Graphic-Designing.png">
+                    <div class="card-body">
+                        <h3 class="card-title">Designing</h3>
+                        <p class="card-text">
+                            <span id="views"><i class="fa fa-eye"></i> 393.333 views</span>
+                            <span id="likes"><i class="fa fa-heart"></i> 393.333 likes</span>
+                            <div class="row container-fluid"> 
+                                <img class="col-2 my-2" src="pro2.png">
+                                <div class="col-10">
+                                    <a href="#"><span id="name">name name</span></a><br>
+                                    <span id="period">week ago</span>
+                                </div>
+                            </div>
+                        </p>
+                    </div>
+                    <a href="#" onclick="likebtn(this);return false;" ><i class="fa fa-heart text-light pt-3"></i></a>
+                </div>
+
+                <div class="card my-3 px-2">
+                    <img class="card-img-top" src="https://neilpatel.com/wp-content/uploads/2016/07/marketingtools.jpg">
+                    <div class="card-body">
+                        <h3 class="card-title">Marketing</h3>
+                        <p class="card-text">
+                            <span id="views"><i class="fa fa-eye"></i> 393.333 views</span>
+                            <span id="likes"><i class="fa fa-heart"></i> 393.333 likes</span>
+                            <div class="row container-fluid"> 
+                                <img class="col-2 my-2" src="pro2.png">
+                                <div class="col-10">
+                                    <a href="#"><span id="name">name name</span></a><br>
+                                    <span id="period">week ago</span>
+                                </div>
+                            </div>
+                        </p>
+                    </div>
+                    <a href="#" onclick="likebtn(this);return false;" ><i class="fa fa-heart text-light pt-3"></i></a>
+                </div>
+
+                <div class="card my-3 px-2">
+                    <img class="card-img-top" src="https://www.sport-en-spelen.nl/images/350x250/skateboarding.jpg">
+                    <div class="card-body">
+                        <h3 class="card-title">Freestyle skateboarding</h3>
+                        <p class="card-text">
+                            <span id="views"><i class="fa fa-eye"></i> 393.333 views</span>
+                            <span id="likes"><i class="fa fa-heart"></i> 393.333 likes</span>
+                            <div class="row container-fluid"> 
+                                <img class="col-2 my-2" src="pro2.png">
+                                <div class="col-10">
+                                    <a href="#"><span id="name">name name</span></a><br>
+                                    <span id="period">week ago</span>
+                                </div>
+                            </div>
+                        </p>
+                    </div>
+                    <a href="#" onclick="likebtn(this); return false;" ><i class="fa fa-heart text-light pt-3" ></i></a>
+                </div>
+            </div>
+
+            <div class="col-4" id="right-side">
+                
+                <div id="people" class="row">
+                    <h5>popular creators</h5>
+                    <div id="user" class="col-3 my-2">
+                        <img src="pro2.png">
+                        <small>user1</small> 
+                    </div>
+                    <div id="user" class="col-3 my-2">
+                        <img src="pro2.png">
+                        <small>user2</small> 
+                    </div>
+                    <div id="user" class="col-3 my-2">
+                        <img src="pro2.png">
+                        <small>user3</small> 
+                    </div>
+                    <div id="user" class="col-3 my-2">
+                        <img src="pro2.png">
+                        <small>user4</small> 
+                    </div>
+                    <div id="user" class="col-3 my-2">
+                        <img src="pro2.png">
+                        <small>user5</small> 
+                    </div>
+                    <div id="user" class="col-3 my-2">
+                        <img src="pro2.png">
+                        <small>user6</small> 
+                    </div> 
+                </div>
+
+
+                <div id="progress" class="mt-3">
+
+                    <h5>popular Searchs</h5>
+
+                    <span class="my-5">design skill</span>
+                    <div class="progress my-3" style="height: 10px;">
+                        <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="30" 
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+
+                    <span class="my-5">html tutorial</span>
+                    <div class="progress my-3" style="height: 10px;">
+                        <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="30" 
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+
+                    <span class="my-5">first time coding</span>
+                    <div class="progress my-3" style="height: 10px;">
+                        <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="30" 
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+
+                    <span class="my-5">marketing tools</span>
+                    <div class="progress my-3" style="height: 10px;">
+                        <div class="progress-bar" role="progressbar" style="width: 20%;" aria-valuenow="30" 
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>  
+
+        <script type="text/javascript" src="main.js"></script>
+
+    </body>
+
+
+</html>

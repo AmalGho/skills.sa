@@ -1,0 +1,219 @@
+
+            body{
+                background-color: #f1faee;
+                color: black; 
+            }           
+
+            ul{
+                position: fixed;
+                display: flex;
+                list-style: none;
+            }
+
+            a{
+                text-decoration: none;
+                color: black !important;
+                font-weight: bold;
+            }
+            a:hover i:not(.fa-heart,.fa-search,.fa-bell,.fa-moon-o, .fa-sun-o){
+                color: #43aa8b !important;
+            }
+
+            a:hover i:not(.fa-bell, .fa-heart, .fa-moon-o, .fa-sun-o){
+                transform: scale(1.5);
+                transition: 0.4s ease;
+            }
+
+            .fa-moon-o , .fa-sun-o{
+                filter: drop-shadow(0 2px 4px gray);
+            }
+                
+            img{
+                width: 30px;
+                height: 30px;
+            }
+
+            .form {
+                position: relative;
+            }
+
+            .form span {
+                position: absolute;
+                right: 10px;
+                top: 5px;
+                padding: 3px;
+            }
+
+            .left-pan {
+                padding-left: 7px
+            }
+
+            .left-pan i {
+                padding-left: 30px
+            }
+
+            .form-input[type=text] {
+                height: 40px;
+                border-radius: 10px;
+                border: none;
+                background-color: rgba(94, 93, 93, 0.438);                
+            }
+
+            .form-input:focus {
+                box-shadow: none;
+                border: none
+            }
+
+            .nav{
+                display: flex;
+                flex-direction: column;
+            }
+
+            .nav i{
+                padding: 10px;
+                color: rgba(94, 93, 93, 0.623);
+            }
+
+            hr{
+                width: 100%;
+            }
+
+            .card {
+                flex-direction: row;
+                border: none;
+                border-radius: 15px;
+                width: 40rem;
+                background-color: rgba(94, 93, 93, 0.438);
+                transition: 0.7s ease;
+            }
+
+            .card-img-top{
+                width: 30%;
+                height: auto;
+                padding: 10px;
+                border-radius: 15px;
+            }
+
+            #likes, #views,#period {
+                color: rgb(82, 80, 80);
+                padding: 10px;
+                font-size: small;
+            }
+
+            h1{
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+
+            .dark-mode, .dark-mode .navbar{
+                background-color: rgb(43, 42, 42);
+                color: rgb(161, 159, 159);
+            }
+
+            .dark-mode #likes, .dark-mode #views, .dark-mode #period, .dark-mode a, .dark-mode i{
+                color: rgb(155, 154, 154) !important;
+            }
+
+            mark{
+                border-radius: 20px;   
+                width: 20px;
+                height: 20px; 
+                border: 1px solid white; 
+                background-color: #FF6B6B;
+                position: absolute;
+                top: -5px;
+                right: -10px;
+                font-size: 10px;
+                text-align: center;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 400;
+                line-height: 15px;
+                color: #FFF;
+                font-weight: 700;
+            }
+
+            .animate__bounceIn{
+                animation-duration: 2s;
+                
+            }
+
+            .fa-bell{
+                position: relative;
+            }
+
+            .card:hover , .dropdown:hover{
+                transform: scale(1.1);
+            }
+
+            .active i:not(.fa-moon-o){
+                transform: scale(1.6);
+                transition: 0.7s ease;
+                color: #43aa8b !important;
+            }
+
+            #likes .fa-heart{
+                color: red !important;
+            }
+
+            #people, #progress{
+                background-color: rgba(94, 93, 93, 0.438);
+                border-radius: 15px;
+                padding: 20px;
+                margin-left: 10px;
+            }
+
+            #right-side{
+                width: 25%;
+                position: fixed;
+                right: 2%;
+                top: 20%;
+            }
+
+            #user:hover img{
+                filter:drop-shadow(0px 1px 4px white);
+
+            }
+
+            #name:hover {
+                filter:drop-shadow(0px 1px 4px white);
+
+            }
+
+            .progress-bar{
+                background-color: #4d908e;
+            }
+
+            .progress{
+                background-color: rgba(94, 93, 93, 0.438);
+
+            }
+
+            h5{
+                margin-bottom: 10%;
+            }
+
+            #profile{
+                display: flex;
+            }
+
+
+            .navbar{
+                background-color: #f1faee;
+            } 
+
+            .liked .fa-heart {
+                color: #FF6B6B !important;
+                animation: liked .4s ease;
+                }
+
+            @keyframes liked {
+                0% {
+                    transform: scale(.8);
+                }
+                50% {
+                    transform: scale(1.2);
+                }
+                100% {
+                    transform: scale(1);
+                }
+            }
