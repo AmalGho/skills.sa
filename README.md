@@ -4,4 +4,4 @@ night mode.
 contains animate.css .
 contains some bootstrap features.
 active navbar by javascript.
-it is not responsive design.
+it is not working on different screen sizes (not responsive design)
