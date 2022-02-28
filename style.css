@@ -151,7 +151,7 @@
                 color: #43aa8b !important;
             }
 
-            #likes .fa-heart{
+            #likes .fa-heart-o{
                 color: red !important;
             }
 
@@ -201,12 +201,12 @@
                 background-color: #f1faee;
             } 
 
-            .liked .fa-heart {
+            .liked {
                 color: #FF6B6B !important;
-                animation: liked .4s ease;
+                animation: like .4s ease;
                 }
 
-            @keyframes liked {
+            @keyframes like {
                 0% {
                     transform: scale(.8);
                 }

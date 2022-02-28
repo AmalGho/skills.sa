@@ -11,12 +11,18 @@ for (let i = 0; i < items.length; i++) {
     });
 }
 
-function NightMode() {
-    let element = document.body;
+
+
+document.getElementById("dark-btn").onclick = function (){
     $("body").toggleClass('dark-mode');
     $("#fa").toggleClass("fa-moon-o fa-sun-o");
 }
 
-function likebtn(e) {
-    e.classList.toggle("liked");
-}
+
+let likes = document.querySelectorAll(".fa-heart");
+
+likes.forEach(function(el){
+    el.onclick = function (){
+        this.classList.toggle("liked");
+    }
+});
